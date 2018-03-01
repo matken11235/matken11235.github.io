@@ -1,6 +1,9 @@
+---
+---
+
 html, body {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 #root {
@@ -47,10 +50,10 @@ html, body {
   background-size: cover;
   background-position: center;
 }
-.images .image:nth-child(1):after { background-image: url(../images/1.png); }
-.images .image:nth-child(2):after { background-image: url(../images/2.png); }
-.images .image:nth-child(3):after { background-image: url(../images/3.png); }
-.images .image:nth-child(4):after { background-image: url(../images/4.png); }
+.images .image:nth-child(1):after { background-image: url(/images/1.png); }
+.images .image:nth-child(2):after { background-image: url(/images/2.png); }
+.images .image:nth-child(3):after { background-image: url(/images/3.png); }
+.images .image:nth-child(4):after { background-image: url(/images/4.png); }
 
 /*** 画面表示のアニメーション ***/
 .paint { animation: fadeout_paint 1s ease 0.5s forwards; }
