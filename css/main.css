@@ -84,24 +84,48 @@ p { margin: 0; }
     background-color: whitesmoke;
     transform: translateX(-100%);
 }
-#prologue .line-1 { width: 480px; left: calc(25% - 240px); }
-#prologue .line-2 {
-    width: calc(((50% - 480px) / 2) + (50% - 80px));
-    right: 80px;
+#prologue .line-1 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 100px;
+    bottom: 0px;
+    margin: auto;
+    width: calc(60px * 5);
 }
+
+.triangle {
+    border-right: 50px solid transparent;
+    border-bottom: 86.6025px solid #e41717;
+    border-left: 50px solid transparent;
+    
+    position: absolute;
+    top: calc(50% + 60px); left: calc(50% - 50px);
+    width: 0px; /* width + border-right + border-left = 100px */
+    height: 0px; /* height + border-bottom = 86px */
+    opacity: 0.9;
+}
+
 
 
 /*********************************************************************************
   Bind to keyframes
 **********************************************************************************/
 /*** .word-1 ***/
-#prologue .word-1 div:nth-child(1) p { animation: show-word 0.2s ease-out 0.0s forwards; }
-#prologue .word-1 div:nth-child(2) p { animation: show-word 0.2s ease-out 0.2s forwards; }
-#prologue .word-1 div:nth-child(3) p { animation: show-word 0.2s ease-out 0.4s forwards; }
-#prologue .word-1 div:nth-child(4) p { animation: show-word 0.2s ease-out 0.6s forwards; }
-#prologue .word-1 div:nth-child(5) p { animation: show-word 0.2s ease-out 0.8s forwards; }
+#prologue .word-1 div:nth-child(1) p { animation: show-word 0.2s linear 0.0s forwards; }
+#prologue .word-1 div:nth-child(2) p { animation: show-word 0.2s linear 0.2s forwards; }
+#prologue .word-1 div:nth-child(3) p { animation: show-word 0.2s linear 0.4s forwards; }
+#prologue .word-1 div:nth-child(4) p { animation: show-word 0.2s linear 0.6s forwards; }
+#prologue .word-1 div:nth-child(5) p { animation: show-word 0.2s linear 0.8s forwards; }
 /*** .line-1 ***/
-#prologue .line-1:after { animation: draw-line 1.2s ease 0s forwards; }
+#prologue .line-1:after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+/*** triangle ***/
+#prologue .triangle {
+    animation: waiting 1.5s ease-in-out 0s infinite;
+}
 
 /*********************************************************************************
   keyframes
@@ -112,6 +136,10 @@ p { margin: 0; }
   100% { transform: scale(1); opacity: 1; }
 }
 @keyframes draw-line {
-  0%   { transform: translateX(-100%); }
-  100% { transform: translateX(0%); }
+  0%   { transform: translateX(0%); }
+  100% { transform: translateX(+50%); transform: translateX(-50%); }
+}
+@keyframes waiting {
+    0% { opacity: 0.9; }
+    100% { opacity: 0.4; }
 }
