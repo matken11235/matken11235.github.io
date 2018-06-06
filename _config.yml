@@ -15,6 +15,6 @@
 # in the templates via {{ site.myvariable }}.
 
 # Build settings
-# plugins:
-#   - jekyll-sitemap
-#   - jekyll-feed
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
