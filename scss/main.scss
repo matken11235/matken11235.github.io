@@ -17,7 +17,7 @@ p { margin: 0; }
 
 
 /*********************************************************************************
-  #hello (0.0s ~ 6.0s)
+  #hello (0.0s ~ 4.5s)
 *********************************************************************************/
 #hello {
     position: absolute;
@@ -42,7 +42,7 @@ p { margin: 0; }
         margin-left: auto;
         margin-right: auto;
 
-        animation: fadeout 0.5s ease-in-out 5.0s forwards;
+        animation: fadeout 0.5s ease-in-out 3.5s forwards;
     }
     // TODO: spanとの相対的な距離で配置する．（縦の画面サイズが違うと，spanとの距離も変化してしまっている）
     // Referred from https://www.granfairs.com/blog/staff/make-triangle-with-css
@@ -59,17 +59,17 @@ p { margin: 0; }
         opacity: 0.9;
 
         // Bind to keyframes
-        animation: waiting 1.5s ease-in-out 0s 4, fadeout 0.5s ease-in-out 5.5s forwards;
+        animation: waiting 1.5s ease-in-out 0s 4, fadeout 0.5s ease-in-out 4.0s forwards;
     }
 }
 
 /*********************************************************************************
-  #open (6.0s ~ 9.0s)
+  #open (4.5s ~ 7.5s)
 **********************************************************************************/
 // Still it is in concept...
 // An alternative implementation is below.
 /*********************************************************************************
-  #open-alt (6.0s ~ 9.0s)
+  #open-alt (4.5s ~ 7.5s)
 **********************************************************************************/
 #open-alt {
     position: absolute;
@@ -84,23 +84,22 @@ p { margin: 0; }
     .split-left {
         float: left;
         border-right: 5px solid;
-        animation: fadein 1.0s ease-in-out 6.0s forwards, move-left 2.0s ease-in-out 7.0s forwards;
+        animation: fadein 1.0s ease-in-out 4.5s forwards, move-left 2.0s ease-in-out 5.5s forwards;
     }
     .split-right {
         border-left: 5px solid;
         transform: translateX(50vw);
-        animation: fadein 1.0s ease-in-out 6.0s forwards, move-right 2.0s ease-in-out 7.0s forwards;
+        animation: fadein 1.0s ease-in-out 4.5s forwards, move-right 2.0s ease-in-out 5.5s forwards;
     }
 }
 
 /*********************************************************************************
-  #contents (9.0s ~ 10.0s)
+  #contents (7.5s ~ 8.5s)
 **********************************************************************************/
 #contents {
     position: absolute;
     top: 0; left: 0;
     width: 100%; height: 100%;
-
     font-family: "dnp-shuei-mgothic-std";
     font-weight: 400;
     font-style: normal;
@@ -113,56 +112,48 @@ p { margin: 0; }
     }
     .fa-fade {
         opacity: 0.0;
-        // transform-style: preserve-3d;
-        animation: fadein 1.0s ease-in-out 9.0s forwards;
+        animation: fadein 1.0s ease-in-out 7.5s forwards;
     }
     .fa-margin {
         margin-right: 3px;
         margin-left: 3px;
     }
-    // .fa-3d {
-    //     // transform-style: preserve-3d;
-    //     // animation: fadein 1.0s ease-in-out 9.0s forwards;
-    //     // animation: move-front 1.0s ease-in-out 10.0s forwards;
-    // }
-    a {
-        text-decoration: none;
-        color: whitesmoke;
-        margin-left: 5px;
-
-        opacity: 0.0;
-        animation: fadein 1.0s ease-in-out 9.0s forwards;
-    }
     div {
         display: table;
         // margin: calc(50vh) 0;
         padding: 5px 20px;
-        opacity: 0.0;
-        animation: fadein 1.0s ease-in-out 9.0s forwards;
         box-sizing: border-box;
     }
-    .cards {
+    .biography, .cards {
         margin: 100px auto 50px auto;
-    }
-    .card {
-        float: left;
-        &:hover {
-            border: 1px solid whitesmoke;
-        }
-    }
-    p {
         opacity: 0.0;
-        animation: fadein 1.0s ease-in-out 9.0s forwards;
     }
     .biography {
-        margin: 100px auto 50px auto;
+        .title {
+            margin-bottom: 10px;
+            font-size: x-large;
+        }
+        .content {
+            font-size: medium;
+        }
+        animation: fadein 1.0s ease-in-out 7.5s forwards;
     }
-    .title {
-        margin-bottom: 10px;
-        font-size: x-large;
-    }
-    .content {
-        font-size: medium;
+    .cards {
+        .card {
+            float: left;
+            &:hover {
+                border: 1px solid whitesmoke;
+            }
+            .link {
+                text-decoration: none;
+                color: whitesmoke;
+                margin-left: 5px;
+        
+                opacity: 0.0;
+                animation: fadein 1.0s ease-in-out 7.5s forwards;
+            }
+        }
+        animation: fadein 1.0s ease-in-out 8.0s forwards;
     }
 }
 
