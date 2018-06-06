@@ -4,18 +4,21 @@
 var options = {
   // strings to be typed
   strings: [
-      "Hello",
+      "HELLO",
       "I'm","matken11235",
       "What","do","you","want","to","know","?"
     ],
   // type speed in milliseconds
   typeSpeed: 20,
+  // do not show cursor
+  showCursor: false,
   // Fade out instead of backspace
   fadeOut: true,
   // css class for fade animation
   fadeOutClass: 'typed-fade-out',
   // Fade out delay in milliseconds
-  fadeOutDelay: 500,
+  fadeOutDelay: 50,
+  // time before backspacing in milliseconds
+  backDelay: 300,
 };
-
-var typed = new Typed(".word-1", options);
+var typed = new Typed(".word", options);
