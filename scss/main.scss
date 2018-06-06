@@ -57,10 +57,13 @@ p { margin: 0; }
         border-left: 30px solid transparent;
 
         position: absolute; /* 50% - border-left */
-        top: calc(50% + 60px); left: calc(50% - 30px);
+        top: calc(50% + 80px); left: calc(50% - 30px);
         width: 0px; height: 0px;
         opacity: 0.9;
     }
+}
+.element {
+    color: whitesmoke;
 }
 
 /*********************************************************************************
