@@ -45,7 +45,7 @@ p { margin: 0; }
                 opacity: 0;
             }
         }
-        &:after {
+        &::after {
             content: ""; display: block; clear: both;
         }
     }
@@ -66,7 +66,7 @@ p { margin: 0; }
         top: calc(50% + 99px);
         height: 1px;
         overflow: hidden;
-        &:after {
+        &::after {
             content: "";
             display: block;
             position: absolute;
@@ -75,15 +75,17 @@ p { margin: 0; }
             background-color: whitesmoke;
             transform: translateX(-100%);
         }
+        -webkit-box-reflect: left;
     }
     .line-1 {
         position: absolute;
-        left: 0px;
+        left: calc(60px * 5);
         right: 0px;
         top: 100px;
         bottom: 0px;
         margin: auto;
         width: calc(60px * 5);
+        -webkit-box-reflect: left;
     }
     .triangle {
         border-right: 30px solid transparent;
@@ -97,23 +99,7 @@ p { margin: 0; }
         opacity: 0.9;
     }
 }
-.underline {
-    display: inline-block;
-    padding-bottom: 4px;
-    position: relative;
-    
-    &::after {
-      background-color: tomato;
-      bottom: 0;
-      content: '';
-      display: block;
-      height: 1px;
-      left: 0;
-      position: absolute;
-      transition: .5s all;
-      width: 0;
-    }
-  }
+
 /*********************************************************************************
   Bind to keyframes
 **********************************************************************************/
@@ -128,6 +114,8 @@ p { margin: 0; }
 /*** .line-1 ***/
 #prologue .line-1 {
     &::after {
+        // left: 50%;
+        // transform: translateX(-50%);
         animation: draw-line 1.2s ease 0s forwards;
     }
 }
@@ -145,8 +133,7 @@ p { margin: 0; }
   100% { transform: scale(1); opacity: 1; }
 }
 @keyframes draw-line {
-//   0%   { left: 0; }
-  100% { left: 50%; transform: translateX(-50%); width: 100%; }
+  100% { transform: translateX(-50%); }
 }
 @keyframes waiting {
     0%   { opacity: 0.9; }
