@@ -6,7 +6,7 @@ var options = {
   strings: [
       "HELLO",
       "I'm","matken11235",
-      "What","do","you","want","to","know","?"
+      "WHAT","DO","YOU","WANT","TO","KNOW","?"
     ],
   // type speed in milliseconds
   typeSpeed: 20,
