@@ -13,8 +13,3 @@ $ gem install jekyll jekyll-sitemap jekyll-feed
 # Development
 $ jekyll serve --watch
 ```
-
-## Architecture
-* CloudFlare
-* ...
-
