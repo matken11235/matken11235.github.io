@@ -27,3 +27,5 @@ redcarpet:
     "strikethrough",
     "superscript"
   ]
+
+theme: jekyll-theme-cayman
