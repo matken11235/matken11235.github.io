@@ -17,8 +17,13 @@
 # Build settings
 theme: jekyll-theme-cayman
 markdown: kramdown
+
 title: matken11235
 description: "This site is portfolio of Ken Matsui"
+
+github:
+  repository_url: "https://github.com/matken11235"
+
 google_analytics: UA-120440564-1
 plugins:
   - jekyll-sitemap
