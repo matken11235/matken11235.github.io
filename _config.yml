@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 
 # Build settings
+theme: jekyll-theme-cayman
+markdown: kramdown
 plugins:
   - jekyll-sitemap
   - jekyll-feed
-markdown: kramdown
-theme: jekyll-theme-cayman
