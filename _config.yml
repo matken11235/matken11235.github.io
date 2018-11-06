@@ -17,6 +17,7 @@
 # Build settings
 theme: jekyll-theme-cayman
 markdown: kramdown
+google_analytics: UA-120440564-1
 plugins:
   - jekyll-sitemap
   - jekyll-feed
