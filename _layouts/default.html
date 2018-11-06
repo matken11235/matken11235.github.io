@@ -21,10 +21,10 @@
 
     <meta name="author" content="Ken Matsui">
     <meta property="og:type" content="website">
-    <!-- <meta property="og:image" content="ogpのURL貼る">  -->
-    <!-- <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="サイトのURL貼る">
-    <meta name="twitter:image" content="ogpのURL貼る"> -->
+    <meta property="og:image" content="{{ site.baseurl | append: "/assets/images/icon.png" }}">
+    <meta name="twitter:card" content="{{ site.description | default: site.github.project_tagline }}">
+    <meta name="twitter:site" content="{{ site.baseurl }}">
+    <meta name="twitter:image" content="{{ site.baseurl | append: "/assets/images/icon.png" }}">
 
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
     <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/apple-touch-icon.png" />
@@ -35,10 +35,6 @@
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
     </header>
 
