@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /
+permalink: /:title
 title: resume
 ---
 
