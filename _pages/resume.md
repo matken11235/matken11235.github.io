@@ -64,7 +64,7 @@ CISE, Ritsumeikan University - Shiga, B.A. expected in Mar.2022
 [https://github.com/matken11235/gae-seq2seq-slackbot](https://github.com/matken11235/gae-seq2seq-slackbot)
 
 <a name="footnote7">7</a>.
-[https://github.com/matken11235/tfkeras-DCGAN](https://github.com/matken11235/tfkeras-DCGAN)
+[https://github.com/matken11235/tfkeras-dcgan](https://github.com/matken11235/tfkeras-dcgan)
 
 <a name="footnote8">8</a>.
 [https://github.com/matken11235/keras-seq2seq](https://github.com/matken11235/keras-seq2seq)
