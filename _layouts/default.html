@@ -11,6 +11,9 @@
         gtag('config', '{{ site.google_analytics }}');
       </script>
     {% endif %}
+    {% if site.google_verify %}
+      <meta name="google-site-verification" content="{{ site.google_verify }}">
+    {% endif %}
     <meta charset="UTF-8">
 
 {% seo %}
