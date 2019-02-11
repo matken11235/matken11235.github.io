@@ -10,6 +10,7 @@ github:
   repository_url: "https://github.com/matken11235"
 
 google_analytics: UA-120440564-1
+google_verify: fc3-DNsxFB8e05DlPWEyK-kgRoMf0K74PBtIT4Jh4ys
 plugins:
   - jekyll-sitemap
   - jekyll-feed
