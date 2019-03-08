@@ -10,7 +10,7 @@ title: resume
 ---
 
 #### OBJECTIVE
-Seeking a Study of Linguistics which will leverage to my experience of using various programming languages.
+Seeking a study of Linguistics which will leverage to my experience of using various programming languages.
 
 #### QUALIFICATIONS
 * Experienced in development package manager for C/C++, with the support of IPA. <sup>[1](#footnote1)</sup>
@@ -19,10 +19,11 @@ Seeking a Study of Linguistics which will leverage to my experience of using var
 * Built AWS and GCP complex infrastructure using Infrastructure as Code. <sup>[4](#footnote4)</sup>
 * Won the Excellence Award, Furyu Award and Works Applications Award, YAZ Award in ICT Challenge+R. <sup>[5](#footnote5)</sup>
 * I taught the media art using openframeworks to middle and high-school students, at an Intern.
-* I created chat bot using sequence to sequence with attention model and chainer framework. <sup>[6](#footnote6)</sup>
+* I created chat bot using sequence to sequence with attention model. I used chainer framework for that. <sup>[6](#footnote6)</sup>
 * Wrote DCGAN code using tensorflow and keras, also it is written in easy to read for chainer user. <sup>[7](#footnote7)</sup>
-* keras implementation of sequence to sequence *without* attention <sup>[8](#footnote8)</sup>
+* keras implementation of sequence to sequence *without* attention mechanism. <sup>[8](#footnote8)</sup>
 
+<!--
 #### KEYWORDS
 * Programming Language
 * Type System
@@ -31,14 +32,15 @@ Seeking a Study of Linguistics which will leverage to my experience of using var
 
 #### WORK EXPERIENCE
 none
+-->
 
 #### EDUCATION
-CISE, Ritsumeikan University - Shiga, B.A. expected in Mar.2022
+CISE, Ritsumeikan University - Shiga, B.A. expected in Mar.2021
 
 #### LINKS
 * [https://github.com/matken11235](https://github.com/matken11235)
 * [https://github.com/poacpm](https://github.com/poacpm)
-* [https://sourcerer.io/matken11235](https://sourcerer.io/matken11235)
+* [https://portfolio.forkwell.com/@matken11235](https://portfolio.forkwell.com/@matken11235)
 
 #### FOOTNOTE
 <a name="footnote1">1</a>.
