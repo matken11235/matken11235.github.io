@@ -2,8 +2,8 @@ theme: jekyll-theme-cayman
 markdown: kramdown
 include: [ "_pages" ]
 
-title: matken11235
-description: "This site is portfolio of Ken Matsui"
+title: Ken Matsui
+description: "portfolio"
 
 github:
   is_project_page: true
