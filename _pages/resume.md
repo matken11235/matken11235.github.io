@@ -38,35 +38,35 @@ none
 CISE, Ritsumeikan University - Shiga, B.A. expected in Mar.2021
 
 #### LINKS
-* [https://github.com/matken11235](https://github.com/matken11235)
-* [https://github.com/poacpm](https://github.com/poacpm)
-* [https://portfolio.forkwell.com/@matken11235](https://portfolio.forkwell.com/@matken11235)
+* <https://github.com/matken11235>
+* <https://github.com/poacpm>
+* <https://portfolio.forkwell.com/@matken11235>
 
 #### FOOTNOTE
 <a name="footnote1">1</a>.
-[https://github.com/poacpm](https://github.com/poacpm)
+<https://github.com/poacpm>
 
 <a name="footnote2">2</a>.
-[https://github.com/poacpm/poac/blob/master/include/poac/core/inference.hpp](https://github.com/poacpm/poac/blob/master/include/poac/core/inference.hpp)
+<https://github.com/poacpm/poac/blob/master/include/poac/core/inference.hpp>
 
 <a name="footnote3">3</a>.
-[https://github.com/poacpm/poac.pm](https://github.com/poacpm/poac.pm)
+<https://github.com/poacpm/poac.pm>
 
 <a name="footnote4">4</a>.
-[https://github.com/poacpm/infrastructure](https://github.com/poacpm/infrastructure)
+<https://github.com/poacpm/infrastructure>
 
 <a name="footnote5">5</a>.
-[https://sites.google.com/site/ictchallenger2016/result2016](https://sites.google.com/site/ictchallenger2016/result2016)
+<https://sites.google.com/site/ictchallenger2016/result2016>
 
 <a name="footnote6">6</a>.
-[https://github.com/matken11235/chainer-att-seq2seq](https://github.com/matken11235/chainer-att-seq2seq) <br>
-[https://github.com/matken11235/gcf-seq2seq-linebot](https://github.com/matken11235/gcf-seq2seq-linebot) <br>
-[https://github.com/matken11235/gcf-seq2seq-slackbot](https://github.com/matken11235/gcf-seq2seq-slackbot) <br>
-[https://github.com/matken11235/gae-seq2seq-linebot](https://github.com/matken11235/gae-seq2seq-linebot) <br>
-[https://github.com/matken11235/gae-seq2seq-slackbot](https://github.com/matken11235/gae-seq2seq-slackbot)
+<https://github.com/matken11235/chainer-att-seq2seq> <br>
+<https://github.com/matken11235/gcf-seq2seq-linebot> <br>
+<https://github.com/matken11235/gcf-seq2seq-slackbot> <br>
+<https://github.com/matken11235/gae-seq2seq-linebot> <br>
+<https://github.com/matken11235/gae-seq2seq-slackbot>
 
 <a name="footnote7">7</a>.
-[https://github.com/matken11235/tfkeras-dcgan](https://github.com/matken11235/tfkeras-dcgan)
+<https://github.com/matken11235/tfkeras-dcgan>
 
 <a name="footnote8">8</a>.
-[https://github.com/matken11235/keras-seq2seq](https://github.com/matken11235/keras-seq2seq)
+<https://github.com/matken11235/keras-seq2seq>
