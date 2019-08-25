@@ -30,15 +30,19 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-### Phantom settings
+## jekyll-paginate settings
 paginate: 10
 paginate_path: "_pages/page:num/"
+
+## Phantom settings
 footer_text: '© 2019 Ken Matsui'
 admin_name: 'Ken Matsui'
+section_title: 'Latest Work'
+section_subtitle: "I have experience in a number of different areas. Have a look at what I'm working on right now."
 google_analytics: 'UA-120440564-1'
 enable_contact: false
 
-#### Phantom Navigation menu
+### Phantom Navigation menu
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
