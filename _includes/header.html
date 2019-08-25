@@ -9,6 +9,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta content="yes" name="apple-mobile-web-app-capable">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+  <meta name="author" content="{{ site.admin_name }}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{ site.url | append: "/assets/images/icon.png" }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@{{ site.twitter_username }}">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.url }}/feed.xml">
@@ -16,6 +22,7 @@
 
   <!-- Favicons -->
   <link rel="icon" type="image/x-icon" href="{{ site.url }}/assets/img/favicon.ico">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}/assets/images/apple-touch-icon.png" />
 
   <!-- Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,700|Merriweather:400,300,300italic,400italic,700' rel='stylesheet' type='text/css'>
