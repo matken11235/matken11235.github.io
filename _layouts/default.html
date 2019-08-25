@@ -1,47 +1,19 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
+{% include header.html %}
 
-    {% if site.google_analytics %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
-    {% endif %}
-    {% if site.google_verify %}
-      <meta name="google-site-verification" content="{{ site.google_verify }}">
-    {% endif %}
-    <meta charset="UTF-8">
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
 
-{% seo %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+                    {% for post in paginator.posts %}
+                      {% include tile.html %}
+                    {% endfor %}
 
-    <meta name="author" content="Ken Matsui">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="{{ site.url | append: "/assets/images/icon.png" }}">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@matken11235">
+                    {% include pagination.html %}
 
-    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/apple-touch-icon.png" />
-  </head>
-  <body>
-    <header class="page-header" role="banner">
-      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
-    </header>
-
-    <main id="content" class="main-content" role="main">
-      {{ content }}
+                </div>
+            </div>
+        </div>
     </main>
-  </body>
-</html>
+
+{% include footer.html %}

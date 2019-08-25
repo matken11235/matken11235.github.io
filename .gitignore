@@ -38,3 +38,6 @@ config.codekit3
 *.css.map
 
 _site/
+
+.jekyll-cache
+

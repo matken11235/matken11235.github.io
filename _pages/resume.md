@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: inner
+title: Resume
 permalink: /resume
-title: resume
 ---
 
 

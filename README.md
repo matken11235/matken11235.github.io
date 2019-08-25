@@ -1,7 +1,7 @@
-# matken11235
+# matken11235.github.io
 
 ### Biography
-Hi, I am Ken Matsui.
+Hello, I' Ken Matsui.
 I currently live in Japan and study Information Science at [Ritsumeikan University](http://www.ritsumei.ac.jp).
 But I taking my 2nd year off from university.
 <!-- College of Information Science and Engineering -->
@@ -25,3 +25,4 @@ $ gem install jekyll jekyll-sitemap jekyll-feed
 # Development
 $ jekyll serve --watch
 ```
+
