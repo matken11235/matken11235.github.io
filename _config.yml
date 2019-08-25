@@ -1,16 +1,27 @@
-theme: jekyll-theme-cayman
+remote_theme: jamigibbs/phantom
+title: "Hello, I'm Ken Matsui."
+description: "I currently live in Japan and study Information Science at Ritsumeikan University."
+baseurl: ""
+url: "https://matken11235.github.io"
+twitter_username: 'matken11235'
+github_username: 'matken11235'
+medium_username: 'matken11235'
+
+# Build settings
 markdown: kramdown
 include: [ "_pages" ]
-
-title: Ken Matsui
-description: "portfolio"
-
-github:
-  is_project_page: true
-  repository_url: "https://github.com/matken11235"
-
-google_analytics: UA-120440564-1
-google_verify: fc3-DNsxFB8e05DlPWEyK-kgRoMf0K74PBtIT4Jh4ys
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+
+### Phantom settings
+paginate: 10
+footer_text: '© 2019 Ken Matsui'
+admin_name: 'Ken Matsui'
+google_analytics: 'UA-120440564-1'
+enable_contact: false
+
+#### Phantom Navigation menu
+enable_nav: true
+nav_item:
+  - { url: '/', text: 'Home' }
