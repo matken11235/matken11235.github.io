@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 remote_theme: jamigibbs/phantom
 title: "Ken Matsui"
-description: "Hello, I'm Ken Matsui. I currently live in Japan and study Information Science at Ritsumeikan University."
+description: "Hello, I'm Ken Matsui. I currently live in Japan and study College of Information Science and Engineering at Ritsumeikan University."
 baseurl: ""
 url: "https://matken11235.github.io"
 twitter_username: 'matken11235'
