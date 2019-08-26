@@ -47,4 +47,4 @@ enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/resume', text: 'Resume' }
-
+  - { url: '/personal-website', text: 'Profile' }
