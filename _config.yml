@@ -26,9 +26,9 @@ medium_username: 'medium.com/@matken11235'
 markdown: kramdown
 include: [ "_pages" ]
 plugins:
+  - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-feed
 
 ## jekyll-paginate settings
 paginate: 10
