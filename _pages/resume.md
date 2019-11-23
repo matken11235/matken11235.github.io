@@ -10,18 +10,18 @@ permalink: /resume
 ---
 
 #### OBJECTIVE
-Seeking a study of Linguistics which will leverage to my experience of using various programming languages.
+I'm seeking a study of Linguistics, which will leverage my experience of using various programming languages.
 
 #### QUALIFICATIONS
-* Experienced in development package manager for C/C++, with the support of IPA. <sup>[1](#footnote1)</sup>
-* Created inference mechanism from string to function using template meta programming of C++. <sup>[2](#footnote2)</sup>
-* Made SPA with Elm-lang as front end. <sup>[3](#footnote3)</sup>
-* Built AWS and GCP complex infrastructure using Infrastructure as Code. <sup>[4](#footnote4)</sup>
-* Won the Excellence Award, Furyu Award and Works Applications Award, YAZ Award in ICT Challenge+R. <sup>[5](#footnote5)</sup>
-* I taught the media art using openframeworks to middle and high-school students, at an Intern.
-* I created chat bot using sequence to sequence with attention model. I used chainer framework for that. <sup>[6](#footnote6)</sup>
-* Wrote DCGAN code using tensorflow and keras, also it is written in easy to read for chainer user. <sup>[7](#footnote7)</sup>
-* keras implementation of sequence to sequence *without* attention mechanism. <sup>[8](#footnote8)</sup>
+* I experienced in the development package manager for C/C++, with the support of IPA. <sup>[1](#footnote1)</sup>
+* I've created an inference mechanism from string to function using template metaprogramming of C++. <sup>[2](#footnote2)</sup>
+* I've made a single page application (SPA) with Elm-lang as front end. <sup>[3](#footnote3)</sup>
+* I've built AWS and GCP complex infrastructure using Infrastructure as Code. <sup>[4](#footnote4)</sup>
+* I've won the Excellence Award, Furyu Award, and Works Applications Award, YAZ Award in ICT Challenge+R. <sup>[5](#footnote5)</sup>
+* I've taught the media art using openframeworks to middle and high-school students at an Intern.
+* I've created a chatbot using sequence to sequence with the attention model. I used Chainer framework for that. <sup>[6](#footnote6)</sup>
+* I've written DCGAN code using Tensorflow and Keras; also, it is written in easy to read for Chainer user. <sup>[7](#footnote7)</sup>
+* I've created Keras implementation of sequence to sequence without attention mechanism. <sup>[8](#footnote8)</sup>
 
 <!--
 #### KEYWORDS
