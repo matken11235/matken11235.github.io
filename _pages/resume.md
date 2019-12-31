@@ -13,15 +13,15 @@ permalink: /resume
 I'm seeking a study of Linguistics, which will leverage my experience of using various programming languages.
 
 #### QUALIFICATIONS
-* I experienced in the development package manager for C/C++, with the support of IPA. <sup>[1](#footnote1)</sup>
-* I've created an inference mechanism from string to function using template metaprogramming of C++. <sup>[2](#footnote2)</sup>
-* I've made a single page application (SPA) with Elm-lang as front end. <sup>[3](#footnote3)</sup>
-* I've built AWS and GCP complex infrastructure using Infrastructure as Code. <sup>[4](#footnote4)</sup>
-* I've won the Excellence Award, Furyu Award, and Works Applications Award, YAZ Award in ICT Challenge+R. <sup>[5](#footnote5)</sup>
-* I've taught the media art using openframeworks to middle and high-school students at an Intern.
-* I've created a chatbot using sequence to sequence with the attention model. I used Chainer framework for that. <sup>[6](#footnote6)</sup>
-* I've written DCGAN code using Tensorflow and Keras; also, it is written in easy to read for Chainer user. <sup>[7](#footnote7)</sup>
-* I've created Keras implementation of sequence to sequence without attention mechanism. <sup>[8](#footnote8)</sup>
+* Experienced in the development package manager for C/C++, with the support of IPA. <sup>[1](#footnote1)</sup>
+* Created an inference mechanism from string to function using template metaprogramming of C++. <sup>[2](#footnote2)</sup>
+* Created a single page application (SPA) with Elm-lang as front end. <sup>[3](#footnote3)</sup>
+* Built AWS and GCP complex infrastructure using Infrastructure as Code. <sup>[4](#footnote4)</sup>
+* Won the Excellence Award, Furyu Award, and Works Applications Award, YAZ Award in ICT Challenge+R. <sup>[5](#footnote5)</sup>
+* Taught the media art using openframeworks to middle and high-school students at an Intern.
+* Created a chatbot using sequence to sequence with the attention model and Chainer framework. <sup>[6](#footnote6)</sup>
+* Wrote DCGAN code using Tensorflow and Keras; also, it is written in easy to read for Chainer user. <sup>[7](#footnote7)</sup>
+* Created sequence to sequence without attention mechanism of Keras implementation. <sup>[8](#footnote8)</sup>
 
 <!--
 #### KEYWORDS
