@@ -46,3 +46,5 @@ enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/resume', text: 'Resume' }
+
+theme: jekyll-theme-cayman
