@@ -47,7 +47,7 @@ CISE, Ritsumeikan University - Shiga, B.A. expected in Mar.2021
 <https://github.com/poacpm>
 
 <a name="footnote2">2</a>.
-<https://github.com/poacpm/poac/blob/master/include/poac/core/inference.hpp>
+<https://github.com/poacpm/poac/blob/642b57484d813d6212979edc566cd0926124ea92/include/poac/core/infer.hpp>
 
 <a name="footnote3">3</a>.
 <https://github.com/poacpm/poac.pm>
