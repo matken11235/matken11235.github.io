@@ -1,50 +1,14 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: "Ken Matsui"
-description: "Hello, I'm Ken Matsui. I currently live in Japan and study College of Information Science and Engineering at Ritsumeikan University."
-baseurl: ""
-url: "https://matken11235.github.io"
-twitter_username: 'matken_jp'
-github_username: 'matken11235'
-medium_username: 'medium.com/@matken11235'
-
-# Build settings
+theme: jekyll-theme-cayman
 markdown: kramdown
 include: [ "_pages" ]
+
+title: Ken Matsui
+description: "portfolio"
+
+google_analytics: UA-120440564-1
+google_verify: fc3-DNsxFB8e05DlPWEyK-kgRoMf0K74PBtIT4Jh4ys
+
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-feed
 
-## jekyll-paginate settings
-paginate: 10
-paginate_path: "_pages/page:num/"
-
-## Phantom settings
-footer_text: '© 2019 Ken Matsui'
-admin_name: 'Ken Matsui'
-section_title: 'Latest Work'
-section_subtitle: "I have experience in a number of different areas. Have a look at what I'm working on right now."
-google_analytics: 'UA-120440564-1'
-enable_contact: false
-
-### Phantom Navigation menu
-enable_nav: true
-nav_item:
-  - { url: '/', text: 'Home' }
-  - { url: '/resume', text: 'Resume' }
-
-theme: jekyll-theme-cayman
