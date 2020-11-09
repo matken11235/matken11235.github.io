@@ -38,7 +38,7 @@ none
 CISE, Ritsumeikan University - Shiga, B.A. expected in Mar.2021
 
 #### LINKS
-* <https://github.com/matken11235>
+* <https://github.com/ken-matsui>
 * <https://github.com/poacpm>
 * <https://portfolio.forkwell.com/@matken11235>
 
@@ -59,14 +59,15 @@ CISE, Ritsumeikan University - Shiga, B.A. expected in Mar.2021
 <https://sites.google.com/site/ictchallenger2016/result2016>
 
 <a name="footnote6">6</a>.
-<https://github.com/matken11235/chainer-att-seq2seq> <br>
-<https://github.com/matken11235/gcf-seq2seq-linebot> <br>
-<https://github.com/matken11235/gcf-seq2seq-slackbot> <br>
-<https://github.com/matken11235/gae-seq2seq-linebot> <br>
-<https://github.com/matken11235/gae-seq2seq-slackbot>
+<https://github.com/
+11235/chainer-att-seq2seq> <br>
+<https://github.com/ken-matsui/gcf-seq2seq-linebot> <br>
+<https://github.com/ken-matsui/gcf-seq2seq-slackbot> <br>
+<https://github.com/ken-matsui/gae-seq2seq-linebot> <br>
+<https://github.com/ken-matsui/gae-seq2seq-slackbot>
 
 <a name="footnote7">7</a>.
-<https://github.com/matken11235/tfkeras-dcgan>
+<https://github.com/ken-matsui/tfkeras-dcgan>
 
 <a name="footnote8">8</a>.
-<https://github.com/matken11235/keras-seq2seq>
+<https://github.com/ken-matsui/keras-seq2seq>
