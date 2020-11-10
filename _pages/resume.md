@@ -59,8 +59,7 @@ CISE, Ritsumeikan University - Shiga, B.A. expected in Mar.2021
 <https://sites.google.com/site/ictchallenger2016/result2016>
 
 <a name="footnote6">6</a>.
-<https://github.com/
-11235/chainer-att-seq2seq> <br>
+<https://github.com/ken-matsui/chainer-att-seq2seq> <br>
 <https://github.com/ken-matsui/gcf-seq2seq-linebot> <br>
 <https://github.com/ken-matsui/gcf-seq2seq-slackbot> <br>
 <https://github.com/ken-matsui/gae-seq2seq-linebot> <br>
