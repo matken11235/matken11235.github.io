@@ -6,9 +6,13 @@
   <meta http-equiv="refresh" content="0;url={{ page.redirect_to }}" />
 </head>
 <body>
-  <h1>You will be redirected to {{ page.redirect_to }} in 5 seconds.</h1>
+  <h1>You will be redirected to a new page in 5 seconds.</h1>
   <h2>The most updated information is in {{ page.redirect_to }}.</h2>
   <a href="{{ page.redirect_to }}">Click here if you are not redirected.<a>
-  <script>setTimeout(function(){location='{{ page.redirect_to }}';},5000);</script>
+  <script>
+    setTimeout(function(){
+      window.location.href = '{{ page.redirect_to }}';
+    }, 5000);
+  </script>
 </body>
 </html>
